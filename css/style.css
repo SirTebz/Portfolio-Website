@@ -305,7 +305,7 @@ nav{
     gap: 50px;
 }
 .col{
-    display: flex;
+    /* display: flex; */
     width: 50%;
 }
 
@@ -721,8 +721,8 @@ footer{
         gap: 50px;
     }
     .col{
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
         width: 100%;
     }
     .about-info, .contact-info{
@@ -737,7 +737,6 @@ footer{
     .scroll-btn {
         display: none;
     }
-
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
@@ -758,4 +757,5 @@ footer{
     .scroll-btn {
         display: none;
     }
+
 }
