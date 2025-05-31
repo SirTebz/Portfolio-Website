@@ -300,13 +300,15 @@ nav{
 }
 .row{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     width: 100%;
     gap: 50px;
 }
 .col{
     /* display: flex; */
     width: 50%;
+    justify-content: center;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
@@ -523,6 +525,7 @@ h3{
     gap: 10px;
     color: var(--color-white);
     margin-block: 5px;
+    font-size: small;
 }
 .contact-info p>i{
     font-size: 18px;
